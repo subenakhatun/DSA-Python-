@@ -10,3 +10,11 @@ Work Flow:
 6. call function
 
 """
+list1 = [10,20,30,40,50,60,70,80,90,20,100]
+target_value = 20
+def linearSearch(list1,target_value):
+    for i in range(len(list1)):
+        if list1[i] == target_value:
+            return i
+    return -1
+result = linearSearch(list1,target_value)
