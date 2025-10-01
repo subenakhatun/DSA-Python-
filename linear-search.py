@@ -16,6 +16,6 @@ def linearSearch(list1,target_value):
     for i in range(len(list1)):
         if list1[i] == target_value:
             return i
-    return -1
+    # return -1
 result = linearSearch(list1,target_value)
 print(result)
