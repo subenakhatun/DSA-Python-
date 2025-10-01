@@ -18,4 +18,4 @@ def linearSearch(list1,target_value):
             return i
     return -1
 result = linearSearch(list1,target_value)
-print(1000)
+print(result)
